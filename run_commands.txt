@@ -3,3 +3,17 @@
 
 # Get the champions lookup table loaded:
 /Users/peterjmyers/anaconda/envs/root3/bin/python "/Users/peterjmyers/Documents/Projects/gg/lol_wr_analysis/read_in_champions.py"
+
+
+# Export these results.  You might want to tweak the percentage:
+#
+select * from agg_win_rates where role = 'TOP' and
+matchups_considered > number_of_champions_in_role*.90
+
+#
+select * from agg_win_rates where role = 'MIDDLE' and
+matchups_considered > number_of_champions_in_role*.90
+
+#
+select * from agg_win_rates where role = 'JUNGLE' and
+matchups_considered > number_of_champions_in_role*.90
