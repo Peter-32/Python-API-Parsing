@@ -1,0 +1,1 @@
+api.champion.gg/v2/champions?elo=PLATINUM&champData=matchups&api_key=***

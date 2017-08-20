@@ -1,0 +1,1 @@
+/Users/peterjmyers/anaconda/envs/root3/bin/python "/Users/peterjmyers/Documents/Projects/gg/lol_wr_analysis/main.py"
