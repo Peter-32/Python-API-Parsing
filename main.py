@@ -24,12 +24,8 @@ def saveJsonToDB(local_cnx):
                 enemy_champion_id = x['champ2_id']
                 ## SAVE: champion,enemy_champion,winrate,role
                 try :
-                    cur = local_cnx.cursor()
-                    # Truncate the table each script run.
-                    cur.execute("""DELETE FROM win_rates""")
-                    for index, row in final_df.iterrows():
-                        cur.execute("""INSERT INTO win_rates (champion_id, enemy_champion_id, win_rate, role) VALUES
-                        ({},{},{},"{}")""".format(champion_id, enemy_champion_id, winrate, role))
+                    cur.execute("""INSERT INTO win_rates (champion_id, enemy_champion_id, win_rate, role) VALUES
+                    ({},{},{},"{}")""".format(champion_id, enemy_champion_id, winrate, role))
                     local_cnx.commit()
                 except Exception as e:
                     print("Something went wrong saving to DB: {}".format(e))
@@ -51,6 +47,10 @@ print("connecting.")
 local_cnx = mysql.connector.connect(**config_local)
 print("connection done.")
 try:
+    cur = local_cnx.cursor()
+    # Truncate the table each script run.
+    cur.execute("""DELETE FROM win_rates""")
+
     saveJsonToDB(local_cnx)
     print( "Script Success!" )
 except mysql.connector.Error as err:

@@ -1,1 +1,5 @@
+# Get the win rates loaded:
 /Users/peterjmyers/anaconda/envs/root3/bin/python "/Users/peterjmyers/Documents/Projects/gg/lol_wr_analysis/main.py"
+
+# Get the champions lookup table loaded:
+/Users/peterjmyers/anaconda/envs/root3/bin/python "/Users/peterjmyers/Documents/Projects/gg/lol_wr_analysis/read_in_champions.py"
