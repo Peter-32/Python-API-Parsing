@@ -1,0 +1,4089 @@
+<?xml version="1.0"?>
+
+<!--
+-
+- Sequel Pro XML dump
+- Version 4499
+-
+- http://www.sequelpro.com/
+- https://github.com/sequelpro/sequelpro
+-
+- Host: 127.0.0.1 (MySQL 5.7.10-log)
+- Database: gg
+- Generation Time Time: 2017-08-20 18:25:27 +0000
+-
+-->
+
+<resultset statement="select * from agg_win_rates where role = 'JUNGLE' and
+matchups_considered > number_of_champions_in_role*.85" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Maokai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5466</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5282</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Jarvan IV</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5463</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5275</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Jarvan IV</field>
+		<field name="champion3">Jax</field>
+		<field name="avg_win_rate_best_pick">0.5456</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5275</field>
+		<field name="avg_champ3_winrate">0.5150</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Maokai</field>
+		<field name="champion2">Rammus</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5448</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5282</field>
+		<field name="avg_champ2_winrate">0.5308</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Maokai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5445</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.5282</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Rammus</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5443</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5308</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Rammus</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5438</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.5308</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Jax</field>
+		<field name="champion3">Rammus</field>
+		<field name="avg_win_rate_best_pick">0.5433</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.5150</field>
+		<field name="avg_champ3_winrate">0.5308</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Jax</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5423</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5150</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Rammus</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5423</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.5308</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Jax</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5418</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.5150</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Maokai</field>
+		<field name="champion2">Sejuani</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5409</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5282</field>
+		<field name="avg_champ2_winrate">0.5476</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Sejuani</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5406</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5476</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Rammus</field>
+		<field name="champion2">Sejuani</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5405</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5308</field>
+		<field name="avg_champ2_winrate">0.5476</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Maokai</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5398</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5282</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Maokai</field>
+		<field name="champion2">Shaco</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5398</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5282</field>
+		<field name="avg_champ2_winrate">0.5178</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Rammus</field>
+		<field name="avg_win_rate_best_pick">0.5397</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5308</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Maokai</field>
+		<field name="champion2">Nidalee</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5397</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5282</field>
+		<field name="avg_champ2_winrate">0.4999</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Sejuani</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5397</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.5476</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Maokai</field>
+		<field name="champion2">Shyvana</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5396</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5282</field>
+		<field name="avg_champ2_winrate">0.5362</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Maokai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5395</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.5282</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5395</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Jarvan IV</field>
+		<field name="champion3">Rammus</field>
+		<field name="avg_win_rate_best_pick">0.5394</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5275</field>
+		<field name="avg_champ3_winrate">0.5308</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Rammus</field>
+		<field name="avg_win_rate_best_pick">0.5393</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5308</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Maokai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5388</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5282</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Shyvana</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5383</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5362</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5382</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Rammus</field>
+		<field name="champion2">Shaco</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5380</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5308</field>
+		<field name="avg_champ2_winrate">0.5178</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Shaco</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5380</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.5178</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Maokai</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5379</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5282</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Shyvana</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5379</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.5362</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Nidalee</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5378</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.4999</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Rammus</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5376</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5308</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Nidalee</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5376</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.4999</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Rammus</field>
+		<field name="champion2">Shyvana</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5375</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5308</field>
+		<field name="avg_champ2_winrate">0.5362</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Jarvan IV</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5374</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5275</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Elise</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5374</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5079</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Maokai</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Rammus</field>
+		<field name="avg_win_rate_best_pick">0.5373</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5282</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5308</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Evelynn</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5371</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5007</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Maokai</field>
+		<field name="champion2">Rek'Sai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5370</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5282</field>
+		<field name="avg_champ2_winrate">0.5449</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Jarvan IV</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5369</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5275</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Maokai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5368</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.5282</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Rek'Sai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5367</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5449</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Nidalee</field>
+		<field name="champion2">Rammus</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5366</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.4999</field>
+		<field name="avg_champ2_winrate">0.5308</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Jarvan IV</field>
+		<field name="champion3">Jax</field>
+		<field name="avg_win_rate_best_pick">0.5366</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5275</field>
+		<field name="avg_champ3_winrate">0.5150</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Rammus</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5366</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.5308</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Shaco</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5366</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5178</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Rammus</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5366</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5308</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Maokai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5363</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.5282</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Jax</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5363</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5150</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Gragas</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5363</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5018</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Sejuani</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5362</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.5476</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Vi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5361</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5169</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Rammus</field>
+		<field name="champion2">Rek'Sai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5360</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5308</field>
+		<field name="avg_champ2_winrate">0.5449</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Kha'Zix</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5359</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.5242</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5358</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Maokai</field>
+		<field name="champion2">Vi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5357</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5282</field>
+		<field name="avg_champ2_winrate">0.5169</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Nidalee</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5354</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4999</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Rek'Sai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5352</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.5449</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Kha'Zix</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5352</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5242</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Rammus</field>
+		<field name="champion2">Vi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5352</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5308</field>
+		<field name="avg_champ2_winrate">0.5169</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Maokai</field>
+		<field name="champion2">Warwick</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5349</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5282</field>
+		<field name="avg_champ2_winrate">0.5180</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Maokai</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5349</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.5282</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Rammus</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5349</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.5308</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Maokai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5347</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5282</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Warwick</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5346</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5180</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Jarvan IV</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5345</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.5275</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Shyvana</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5345</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.5362</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Rammus</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5344</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5308</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Shaco</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5344</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.5178</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Jarvan IV</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5339</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5275</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Rammus</field>
+		<field name="champion2">Warwick</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5339</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5308</field>
+		<field name="avg_champ2_winrate">0.5180</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Rammus</field>
+		<field name="champion3">Sejuani</field>
+		<field name="avg_win_rate_best_pick">0.5339</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5308</field>
+		<field name="avg_champ3_winrate">0.5476</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5335</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Rammus</field>
+		<field name="avg_win_rate_best_pick">0.5335</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5308</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Vi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5334</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.5169</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Warwick</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5332</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.5180</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Jax</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5331</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.5150</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Jax</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5331</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5150</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Nidalee</field>
+		<field name="champion2">Sejuani</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5329</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.4999</field>
+		<field name="avg_champ2_winrate">0.5476</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Maokai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5328</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.5282</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Rammus</field>
+		<field name="champion3">Shaco</field>
+		<field name="avg_win_rate_best_pick">0.5327</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5308</field>
+		<field name="avg_champ3_winrate">0.5178</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Sejuani</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5327</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5476</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5326</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Shyvana</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5325</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5362</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Rammus</field>
+		<field name="avg_win_rate_best_pick">0.5324</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.5308</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Jax</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5322</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5150</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Sejuani</field>
+		<field name="champion2">Shyvana</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5322</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5476</field>
+		<field name="avg_champ2_winrate">0.5362</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Jax</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5322</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.5150</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Rammus</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5319</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.5308</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Elise</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5317</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5079</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Kha'Zix</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5316</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.5242</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Rek'Sai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5316</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.5449</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Shyvana</field>
+		<field name="avg_win_rate_best_pick">0.5314</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5362</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Sejuani</field>
+		<field name="champion2">Shaco</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5313</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5476</field>
+		<field name="avg_champ2_winrate">0.5178</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Nidalee</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5312</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.4999</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Rammus</field>
+		<field name="avg_win_rate_best_pick">0.5312</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5308</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Rammus</field>
+		<field name="champion3">Shyvana</field>
+		<field name="avg_win_rate_best_pick">0.5312</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5308</field>
+		<field name="avg_champ3_winrate">0.5362</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Sejuani</field>
+		<field name="avg_win_rate_best_pick">0.5309</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5476</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Sejuani</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5309</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5476</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Sejuani</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5306</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.5476</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Shaco</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5306</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5178</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Rammus</field>
+		<field name="avg_win_rate_best_pick">0.5302</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5308</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Shaco</field>
+		<field name="champion2">Shyvana</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5301</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5178</field>
+		<field name="avg_champ2_winrate">0.5362</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Nidalee</field>
+		<field name="champion2">Shyvana</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5299</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.4999</field>
+		<field name="avg_champ2_winrate">0.5362</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Maokai</field>
+		<field name="avg_win_rate_best_pick">0.5298</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.5282</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Sejuani</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5297</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5476</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Shyvana</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5297</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5362</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Rammus</field>
+		<field name="avg_win_rate_best_pick">0.5296</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5308</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Nidalee</field>
+		<field name="champion2">Shaco</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5295</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.4999</field>
+		<field name="avg_champ2_winrate">0.5178</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Warwick</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5294</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.5180</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Vi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5294</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.5169</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Maokai</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5292</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5282</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5292</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Rek'Sai</field>
+		<field name="champion2">Sejuani</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5289</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5449</field>
+		<field name="avg_champ2_winrate">0.5476</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Jax</field>
+		<field name="champion3">Lee Sin</field>
+		<field name="avg_win_rate_best_pick">0.5288</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5150</field>
+		<field name="avg_champ3_winrate">0.4772</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5287</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Shyvana</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5287</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5362</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Jax</field>
+		<field name="champion3">Lee Sin</field>
+		<field name="avg_win_rate_best_pick">0.5287</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.5150</field>
+		<field name="avg_champ3_winrate">0.4772</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Nidalee</field>
+		<field name="champion3">Rammus</field>
+		<field name="avg_win_rate_best_pick">0.5286</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.4999</field>
+		<field name="avg_champ3_winrate">0.5308</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Evelynn</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5286</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5007</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Shyvana</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5285</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.5362</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Nidalee</field>
+		<field name="avg_win_rate_best_pick">0.5285</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.4999</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5284</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Sejuani</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5284</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.5476</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5283</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5283</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Shaco</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5282</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5178</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Nidalee</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5281</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.4999</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Shaco</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5281</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5178</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Jax</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5280</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5150</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Shaco</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5280</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.5178</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Rek'Sai</field>
+		<field name="champion2">Shyvana</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5279</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5449</field>
+		<field name="avg_champ2_winrate">0.5362</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Jarvan IV</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5278</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5275</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Shaco</field>
+		<field name="avg_win_rate_best_pick">0.5278</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5178</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Rammus</field>
+		<field name="champion3">Rek'Sai</field>
+		<field name="avg_win_rate_best_pick">0.5278</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5308</field>
+		<field name="avg_champ3_winrate">0.5449</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Rek'Sai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5277</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5449</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Sejuani</field>
+		<field name="champion2">Vi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5277</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5476</field>
+		<field name="avg_champ2_winrate">0.5169</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Shyvana</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5276</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.5362</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Gragas</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5276</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5018</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Nidalee</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5275</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.4999</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Rammus</field>
+		<field name="avg_win_rate_best_pick">0.5274</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5308</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Rek'Sai</field>
+		<field name="champion2">Shaco</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5273</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5449</field>
+		<field name="avg_champ2_winrate">0.5178</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Nidalee</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5272</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.4999</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Vi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5271</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5169</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Rek'Sai</field>
+		<field name="avg_win_rate_best_pick">0.5271</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5449</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Rammus</field>
+		<field name="avg_win_rate_best_pick">0.5270</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.5308</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Shyvana</field>
+		<field name="champion2">Vi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5270</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5362</field>
+		<field name="avg_champ2_winrate">0.5169</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Jax</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5268</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5150</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Shaco</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5268</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.5178</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Sejuani</field>
+		<field name="champion2">Warwick</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5268</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5476</field>
+		<field name="avg_champ2_winrate">0.5180</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Rammus</field>
+		<field name="champion3">Vi</field>
+		<field name="avg_win_rate_best_pick">0.5268</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5308</field>
+		<field name="avg_champ3_winrate">0.5169</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Shaco</field>
+		<field name="champion2">Vi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5267</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5178</field>
+		<field name="avg_champ2_winrate">0.5169</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Rammus</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5264</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5308</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Maokai</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Shaco</field>
+		<field name="avg_win_rate_best_pick">0.5264</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5282</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5178</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Vi</field>
+		<field name="avg_win_rate_best_pick">0.5262</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5169</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Nidalee</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5261</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.4999</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Evelynn</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5261</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5007</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Maokai</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5261</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.5282</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Shyvana</field>
+		<field name="avg_win_rate_best_pick">0.5259</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5362</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Nidalee</field>
+		<field name="champion2">Rek'Sai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5259</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.4999</field>
+		<field name="avg_champ2_winrate">0.5449</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Nidalee</field>
+		<field name="avg_win_rate_best_pick">0.5259</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.4999</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Sejuani</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5258</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.5476</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Shyvana</field>
+		<field name="champion2">Warwick</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5258</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5362</field>
+		<field name="avg_champ2_winrate">0.5180</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Gragas</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5258</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5018</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Nidalee</field>
+		<field name="champion2">Vi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5257</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.4999</field>
+		<field name="avg_champ2_winrate">0.5169</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Warwick</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5257</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5180</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Sejuani</field>
+		<field name="avg_win_rate_best_pick">0.5256</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5476</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Maokai</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Shyvana</field>
+		<field name="avg_win_rate_best_pick">0.5255</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5282</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5362</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Kha'Zix</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5254</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5242</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Kha'Zix</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5253</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5242</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Shaco</field>
+		<field name="avg_win_rate_best_pick">0.5253</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5178</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Shaco</field>
+		<field name="champion2">Warwick</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5252</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5178</field>
+		<field name="avg_champ2_winrate">0.5180</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Kha'Zix</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5252</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.5242</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Gragas</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5250</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5018</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Jarvan IV</field>
+		<field name="champion3">Lee Sin</field>
+		<field name="avg_win_rate_best_pick">0.5250</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5275</field>
+		<field name="avg_champ3_winrate">0.4772</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Kha'Zix</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5249</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5242</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5247</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Shyvana</field>
+		<field name="avg_win_rate_best_pick">0.5246</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5362</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Shaco</field>
+		<field name="avg_win_rate_best_pick">0.5246</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5178</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Shyvana</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5246</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.5362</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5244</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">40</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Rek'Sai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5243</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5449</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Rek'Sai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5242</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5449</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Nidalee</field>
+		<field name="champion2">Warwick</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5242</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.4999</field>
+		<field name="avg_champ2_winrate">0.5180</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Shaco</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5241</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.5178</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Rek'Sai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5240</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.5449</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Vi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5237</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5169</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Vi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5236</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5169</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Jax</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5235</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.5150</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Rek'Sai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5234</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.5449</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Maokai</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Nidalee</field>
+		<field name="avg_win_rate_best_pick">0.5234</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5282</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.4999</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Vi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5234</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.5169</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Maokai</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Sejuani</field>
+		<field name="avg_win_rate_best_pick">0.5234</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5282</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5476</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Rammus</field>
+		<field name="avg_win_rate_best_pick">0.5232</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">40</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5308</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Nidalee</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5232</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.4999</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Maokai</field>
+		<field name="avg_win_rate_best_pick">0.5232</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.5282</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Sejuani</field>
+		<field name="avg_win_rate_best_pick">0.5231</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5476</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Vi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5228</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.5169</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Evelynn</field>
+		<field name="champion3">Lee Sin</field>
+		<field name="avg_win_rate_best_pick">0.5226</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.5007</field>
+		<field name="avg_champ3_winrate">0.4772</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Warwick</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5222</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5180</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Warwick</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5221</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5180</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Warwick</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5219</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.5180</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Rek'Sai</field>
+		<field name="avg_win_rate_best_pick">0.5219</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5449</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Kha'Zix</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5217</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.5242</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5217</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Rek'Sai</field>
+		<field name="champion2">Vi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5217</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5449</field>
+		<field name="avg_champ2_winrate">0.5169</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Cho'Gath</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5216</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.5318</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Maokai</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5214</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.5282</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5214</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Warwick</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5213</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.5180</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Shyvana</field>
+		<field name="avg_win_rate_best_pick">0.5209</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5362</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Nidalee</field>
+		<field name="avg_win_rate_best_pick">0.5209</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.4999</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5208</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5208</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Kha'Zix</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5203</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.5242</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Jarvan IV</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5202</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5275</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Rek'Sai</field>
+		<field name="champion2">Warwick</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5202</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5449</field>
+		<field name="avg_champ2_winrate">0.5180</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Maokai</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Rek'Sai</field>
+		<field name="avg_win_rate_best_pick">0.5198</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5282</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5449</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Rek'Sai</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5198</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.5449</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Sejuani</field>
+		<field name="avg_win_rate_best_pick">0.5198</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5476</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Maokai</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5196</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">37</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5282</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Vi</field>
+		<field name="champion2">Warwick</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5195</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5169</field>
+		<field name="avg_champ2_winrate">0.5180</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Vi</field>
+		<field name="champion3">Warwick</field>
+		<field name="avg_win_rate_best_pick">0.5192</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.5169</field>
+		<field name="avg_champ3_winrate">0.5180</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Vi</field>
+		<field name="avg_win_rate_best_pick">0.5192</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5169</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Jarvan IV</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5189</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.5275</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5189</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Maokai</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5187</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.5282</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Rek'Sai</field>
+		<field name="avg_win_rate_best_pick">0.5182</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5449</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Sejuani</field>
+		<field name="avg_win_rate_best_pick">0.5182</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.5476</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Evelynn</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5181</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5007</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Maokai</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Vi</field>
+		<field name="avg_win_rate_best_pick">0.5180</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5282</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5169</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Warwick</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5178</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.5180</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Shaco</field>
+		<field name="avg_win_rate_best_pick">0.5178</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5178</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5174</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Shaco</field>
+		<field name="champion3">Shyvana</field>
+		<field name="avg_win_rate_best_pick">0.5173</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5178</field>
+		<field name="avg_champ3_winrate">0.5362</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Shaco</field>
+		<field name="avg_win_rate_best_pick">0.5173</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5178</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Maokai</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5172</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5282</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Jax</field>
+		<field name="champion3">Lee Sin</field>
+		<field name="avg_win_rate_best_pick">0.5171</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5150</field>
+		<field name="avg_champ3_winrate">0.4772</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Shyvana</field>
+		<field name="avg_win_rate_best_pick">0.5169</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5362</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Shaco</field>
+		<field name="avg_win_rate_best_pick">0.5166</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.5178</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5165</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Maokai</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5165</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.5282</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Jax</field>
+		<field name="champion3">Lee Sin</field>
+		<field name="avg_win_rate_best_pick">0.5163</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5150</field>
+		<field name="avg_champ3_winrate">0.4772</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5163</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Sejuani</field>
+		<field name="champion3">Shaco</field>
+		<field name="avg_win_rate_best_pick">0.5161</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5476</field>
+		<field name="avg_champ3_winrate">0.5178</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jarvan IV</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Vi</field>
+		<field name="avg_win_rate_best_pick">0.5160</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">38</field>
+		<field name="avg_champ1_winrate">0.5275</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5169</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Shyvana</field>
+		<field name="avg_win_rate_best_pick">0.5154</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.5362</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Sejuani</field>
+		<field name="avg_win_rate_best_pick">0.5153</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5476</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Nidalee</field>
+		<field name="avg_win_rate_best_pick">0.5153</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.4999</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Nidalee</field>
+		<field name="champion3">Shaco</field>
+		<field name="avg_win_rate_best_pick">0.5145</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.4999</field>
+		<field name="avg_champ3_winrate">0.5178</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Nidalee</field>
+		<field name="avg_win_rate_best_pick">0.5144</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.4999</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Sejuani</field>
+		<field name="champion3">Shyvana</field>
+		<field name="avg_win_rate_best_pick">0.5141</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5476</field>
+		<field name="avg_champ3_winrate">0.5362</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Jax</field>
+		<field name="champion3">Lee Sin</field>
+		<field name="avg_win_rate_best_pick">0.5139</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.5150</field>
+		<field name="avg_champ3_winrate">0.4772</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Gragas</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5138</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5018</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Nidalee</field>
+		<field name="champion3">Shyvana</field>
+		<field name="avg_win_rate_best_pick">0.5137</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.4999</field>
+		<field name="avg_champ3_winrate">0.5362</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Shaco</field>
+		<field name="avg_win_rate_best_pick">0.5132</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5178</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Nidalee</field>
+		<field name="avg_win_rate_best_pick">0.5129</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.4999</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Kha'Zix</field>
+		<field name="champion3">Lee Sin</field>
+		<field name="avg_win_rate_best_pick">0.5127</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.5242</field>
+		<field name="avg_champ3_winrate">0.4772</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Nidalee</field>
+		<field name="champion3">Sejuani</field>
+		<field name="avg_win_rate_best_pick">0.5126</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.4999</field>
+		<field name="avg_champ3_winrate">0.5476</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Kha'Zix</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5124</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.5242</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Rek'Sai</field>
+		<field name="champion3">Shaco</field>
+		<field name="avg_win_rate_best_pick">0.5121</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5449</field>
+		<field name="avg_champ3_winrate">0.5178</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Gragas</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5113</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5018</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Shyvana</field>
+		<field name="avg_win_rate_best_pick">0.5111</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5362</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Rek'Sai</field>
+		<field name="avg_win_rate_best_pick">0.5111</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5449</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Shaco</field>
+		<field name="champion3">Vi</field>
+		<field name="avg_win_rate_best_pick">0.5111</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5178</field>
+		<field name="avg_champ3_winrate">0.5169</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Shaco</field>
+		<field name="avg_win_rate_best_pick">0.5111</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5178</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Rek'Sai</field>
+		<field name="champion3">Shyvana</field>
+		<field name="avg_win_rate_best_pick">0.5109</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5449</field>
+		<field name="avg_champ3_winrate">0.5362</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Rek'Sai</field>
+		<field name="avg_win_rate_best_pick">0.5109</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.5449</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Vi</field>
+		<field name="avg_win_rate_best_pick">0.5105</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5169</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Shyvana</field>
+		<field name="avg_win_rate_best_pick">0.5103</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5362</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Sejuani</field>
+		<field name="avg_win_rate_best_pick">0.5102</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5476</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Kha'Zix</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5098</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5242</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Shyvana</field>
+		<field name="champion3">Vi</field>
+		<field name="avg_win_rate_best_pick">0.5097</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5362</field>
+		<field name="avg_champ3_winrate">0.5169</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Rek'Sai</field>
+		<field name="avg_win_rate_best_pick">0.5092</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5449</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Shaco</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5091</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5178</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5090</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Vi</field>
+		<field name="avg_win_rate_best_pick">0.5086</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5169</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Shyvana</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5084</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5362</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Rek'Sai</field>
+		<field name="champion3">Sejuani</field>
+		<field name="avg_win_rate_best_pick">0.5082</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5449</field>
+		<field name="avg_champ3_winrate">0.5476</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Evelynn</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5081</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.5007</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Evelynn</field>
+		<field name="champion3">Lee Sin</field>
+		<field name="avg_win_rate_best_pick">0.5080</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.5007</field>
+		<field name="avg_champ3_winrate">0.4772</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Vi</field>
+		<field name="avg_win_rate_best_pick">0.5080</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.5169</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Shaco</field>
+		<field name="avg_win_rate_best_pick">0.5076</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5178</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Jax</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5072</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5150</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Shyvana</field>
+		<field name="avg_win_rate_best_pick">0.5071</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5362</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5071</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">36</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Sejuani</field>
+		<field name="avg_win_rate_best_pick">0.5068</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5476</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Sejuani</field>
+		<field name="champion3">Vi</field>
+		<field name="avg_win_rate_best_pick">0.5065</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5476</field>
+		<field name="avg_champ3_winrate">0.5169</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Nidalee</field>
+		<field name="avg_win_rate_best_pick">0.5058</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.4999</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Nidalee</field>
+		<field name="avg_win_rate_best_pick">0.5056</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.4999</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Sejuani</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5052</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5476</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Elise</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5051</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.5079</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Kha'Zix</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5042</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.5242</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Sejuani</field>
+		<field name="avg_win_rate_best_pick">0.5042</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5476</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Rek'Sai</field>
+		<field name="avg_win_rate_best_pick">0.5027</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5449</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Nidalee</field>
+		<field name="champion3">Rek'Sai</field>
+		<field name="avg_win_rate_best_pick">0.5022</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.4999</field>
+		<field name="avg_champ3_winrate">0.5449</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Nidalee</field>
+		<field name="champion3">Vi</field>
+		<field name="avg_win_rate_best_pick">0.5021</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.4999</field>
+		<field name="avg_champ3_winrate">0.5169</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Vi</field>
+		<field name="avg_win_rate_best_pick">0.5017</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5169</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Nidalee</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5016</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.4999</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Nidalee</field>
+		<field name="avg_win_rate_best_pick">0.5016</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.4999</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Rek'Sai</field>
+		<field name="avg_win_rate_best_pick">0.5008</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5449</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.5002</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Gragas</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.5000</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.5018</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Vi</field>
+		<field name="avg_win_rate_best_pick">0.4997</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5169</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Lee Sin</field>
+		<field name="champion3">Master Yi</field>
+		<field name="avg_win_rate_best_pick">0.4976</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.4772</field>
+		<field name="avg_champ3_winrate">0.4910</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Kha'Zix</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.4974</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.5242</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Rek'Sai</field>
+		<field name="avg_win_rate_best_pick">0.4964</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5449</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Rek'Sai</field>
+		<field name="champion3">Vi</field>
+		<field name="avg_win_rate_best_pick">0.4961</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5449</field>
+		<field name="avg_champ3_winrate">0.5169</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Rek'Sai</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.4956</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5449</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Vi</field>
+		<field name="avg_win_rate_best_pick">0.4955</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.5169</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Master Yi</field>
+		<field name="champion2">Vi</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.4945</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">35</field>
+		<field name="avg_champ1_winrate">0.4910</field>
+		<field name="avg_champ2_winrate">0.5169</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+	<row>
+		<field name="role">JUNGLE</field>
+		<field name="champion1">Lee Sin</field>
+		<field name="champion2">Master Yi</field>
+		<field name="champion3">Zac</field>
+		<field name="avg_win_rate_best_pick">0.4934</field>
+		<field name="number_of_champions_in_role">40</field>
+		<field name="matchups_considered">39</field>
+		<field name="avg_champ1_winrate">0.4772</field>
+		<field name="avg_champ2_winrate">0.4910</field>
+		<field name="avg_champ3_winrate">0.4850</field>
+	</row>
+
+</resultset>
